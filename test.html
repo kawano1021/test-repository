@@ -9,37 +9,81 @@
 </head>
 
 <body>
-    <h1>見出し1です。これは最上位の見出しで一つまでです。</h1>
-    <hr>
-    <div><!--div要素はセクションを分けるための要素です。特に意味はありません。-->
-        <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements">HTMLの要素リファレンス</a>
-        <!--a要素はリンクを作成します。href属性にリンク先のURLを指定します。-->
-    </div>
-    <div><!--span要素はインライン要素で、特に意味はありません。-->
-        <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements">HTMLの要素リファレンス</a>
-    </div>
+    <main>
+        <h1>見出し1です。これは最上位の見出しで一つまでです。</h1>
+        <hr><!--水平線要素です。セクションの区切りを示します。-->
 
-    <img src="C:\Users\ohs15038\OneDrive\画像\カメラ ロール\jujutsu_03-800x450.jpg" alt="画像が存在しません。"
-        width="500px"><!--画像要素です。src属性に画像のURLを指定します。alt属性は画像が表示できない場合の代替テキストです-->
+        <table><!--table要素は表を定義します。-->
+            <thead><!--表のヘッダーを定義します。-->
+                <tr><!--行を定義します。-->
+                    <th></th><!--データセルを定義します。-->
+                    <th>炎の呼吸</th>
+                    <th>水の呼吸</th>
+                    <th>風の呼吸</th>
+                    <th>雷の呼吸</th>
+                </tr>
+            </thead>
+            <tbody><!--表の本体を定義します。-->
+                <tr>
+                    <th>壱ノ型</th>
+                <tr>
+                    <th>弐ノ型</th>
+                </tr>
+                <tr>
+                    <th>参ノ型</th>
+                </tr>
+                <tr>
+                    <th>肆ノ型</th>
+                </tr>
+            </tbody>
 
-    <p>段落要素です</p>
-    <p>Miss luxury すれ違う catwalk <sup><a href="https://note.com/atk__12ppsmk/n/n711c771534ce">[1]</a></sup>
-        で<br>おもわず皆振り返る<br>質問責めじゃなく be cool<br>けど wass <sub>y</sub>o name?</p>
-    <b>太文字にします</b>
-    <h2>見出し2です。</h2>
-    <ul><!--順序なし-->
-        <li>リストグループ</li><!--リストグループ内のリスト-->
-        <ul>
-            <li>リスト1</li>
-            <li>リスト2</li>
-        </ul>
-        <li>リストグループ2</li><!--リストグループ内のリスト-->
-        <ol><!--順序あり-->
-            <li>リスト1</li>
-            <li>リスト2</li>
-        </ol>
-    </ul>
-    <p>&amp;</p><!--エンティティ文字-->
+            </tr>
+        </table>
+
+        <nav><!--nav要素はナビゲーションリンクのセクションを定義します。-->
+            <div><!--div要素はセクションを分けるための要素です。特に意味はありません。-->
+                <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements">HTMLの要素リファレンス</a>
+                <!--a要素はリンクを作成します。href属性にリンク先のURLを指定します。-->
+            </div>
+            <div><!--span要素はインライン要素で、特に意味はありません。-->
+                <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements">HTMLの要素リファレンス</a>
+            </div>
+        </nav>
+
+        <img src="C:\Users\ohs15038\OneDrive\画像\カメラ ロール\jujutsu_03-800x450.jpg" alt="画像が存在しません。"
+            width="500px"><!--画像要素です。src属性に画像のURLを指定します。alt属性は画像が表示できない場合の代替テキストです-->
+
+        <p>段落要素です</p>
+        <article><!--article要素は独立したコンテンツを表します。-->
+            <p>Miss luxury すれ違う catwalk <sup><a
+                        href="https://note.com/atk__12ppsmk/n/n711c771534ce">[1]</a></sup>で<br>おもわず皆振り返る<br>質問責めじゃなく be
+                cool<br>けど wass <sub>y</sub>o name?</p>
+        </article>
+
+        <b>太文字にします</b>
+
+        <section>
+            <h2>見出し2です。</h2>
+            <ul><!--順序なし-->
+                <li>リストグループ</li><!--リストグループ内のリスト-->
+                <ul>
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                </ul>
+                <li>リストグループ2</li><!--リストグループ内のリスト-->
+                <ol><!--順序あり-->
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                </ol>
+            </ul>
+        </section>
+
+        <p>&amp;</p><!--エンティティ文字-->
+    </main>
+
+    <footer><!--フッター要素はページのフッターを定義します。-->
+        <p>著作権 © 2025</p>
+    </footer><!--フッター要素の終了-->
 </body>
 
 </html>
