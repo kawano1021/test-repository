@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+h1 {
+	color: #326693;
+	/* 見出しテキストの色を指定する */
+	padding-left: 10px;
+	/* ボックス内左側の余白を指定する */
+	border-left: 10px solid #31a9ee;
+	/* ボーダー左側のスタイルを指定する */
+}
+
+.formDemo {
+	background-color: aqua;
+	/* フォームの背景色を指定する */
+	border-radius: 10px;
+	/* フォームの角を丸くする */
+	max-width: 50%;
+	/* フォームの最大幅を指定する */
+	margin: auto;
+}
+
+.formButton {
+	background-color: #31a9ee;
+	/* ボタンの背景色を指定する */
+	color: white;
+	/* ボタンのテキスト色を指定する */
+	border: none;
+	/* ボタンのボーダーをなしにする */
+	padding: 10px 20px;
+	/* ボタンの内側の余白を指定する */
+	cursor: pointer;
+	/* カーソルをポインターに変更する */
+	border-radius: 5px;
+	/* ボタンの角を丸くする */
+	transition: background-color 0.3s ease;
+	/* 背景色の変化にアニメーションを適用する */
+	width:
+		30%;
+}
+
+ol.formList {
+	list-style-type: none;
+	/* リストのスタイルをなしにする */
+}

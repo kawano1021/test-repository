@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>フォーム作成</title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+
+    <form action="file:///C:/test-repository/test.html" method="post" class="formDemo">
+        <ol class="formList">
+            <li>
+                <label for="name">名前</label>
+                <input type="text" id="name" name="user=name">
+            </li>
+            <li class="get-sex">
+                <label for="men">男性</label>
+                <input type="radio" id="men" name="sex">
+                <label for="women">女性</label>
+                <input type="radio" id="women" name="sex">
+
+            </li>
+            <li><input type="password" id="password" name="password" placeholder="パスワード"></li>
+            <li>
+                <button type="submit" class="formButton">送信</button>
+            </li>
+        </ol>
+    </form>
+
+</body>
+
+</html>
