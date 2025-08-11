@@ -13,19 +13,21 @@
 
     <form action="file:///C:/test-repository/test.html" method="post" class="formDemo">
         <ol class="formList">
-            <li>
+            <li class="post">
                 <label for="name">名前</label>
                 <input type="text" id="name" name="user=name">
             </li>
-            <li class="get-sex">
+            <li class="post">
                 <label for="men">男性</label>
                 <input type="radio" id="men" name="sex">
                 <label for="women">女性</label>
                 <input type="radio" id="women" name="sex">
 
             </li>
-            <li><input type="password" id="password" name="password" placeholder="パスワード"></li>
-            <li>
+            <li class="post">
+                <input type="password" id="password" name="password" placeholder="パスワード">
+            </li>
+            <li class="post">
                 <button type="submit" class="formButton">送信</button>
             </li>
         </ol>
