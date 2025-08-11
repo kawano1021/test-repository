@@ -43,9 +43,12 @@ ol.formList {
 	/* リストのスタイルをなしにする */
 }
 
-.formList li {
-	margin-top: 10px;
-	/* 各リスト項目の上に余白を追加する */
-	margin-bottom: 10px;
-	/* 各リスト項目の下に余白を追加する */
+input[type="password"] {
+	border: 1px solid #ccc;
+	/* パスワード入力フィールドのボーダーを指定する */
+	padding: 10px;
+	/* パスワード入力フィールドの内側の余白を指定する */
+	border-radius: 5px;
+	/* パスワード入力フィールドの角を丸くする */
+	margin: 10px;
 }
