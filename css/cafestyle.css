@@ -1,0 +1,38 @@
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+
+#header {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*-------------------------------------------
+navを横並び
+-------------------------------------------*/
+#header ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+#header ul li {
+    font-size: 0.9rem;
+    margin-left: 30px;
+}
+
+#header li img.icon {
+    width: 20px;
+}
